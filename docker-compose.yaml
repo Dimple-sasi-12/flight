@@ -3,7 +3,7 @@ services:
   flight-service:
     build: .
     ports:
-      - 81:80
+      - 8081:80
     volumes:
       - flight-vol:/usr/local/apache2/htdocs
 volumes:
